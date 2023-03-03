@@ -1,0 +1,32 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: lightblue;
+}
+.ball{
+    height: 5rem;
+    width: 5rem;
+    position: absolute;
+}
+.mainArea{
+    background-image: url("./images/greenBackground.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 95%;
+    height: 85vh;
+    margin: auto;
+}
+button{
+    font-size: 1.5rem;
+    padding: 1rem;
+    background-color: lightcoral;
+    cursor: pointer;
+    margin: 1rem;
+}
+.buttons{
+    width: fit-content;
+    margin: auto;
+}
